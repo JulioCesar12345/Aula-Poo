@@ -10,42 +10,51 @@ package poo;
  * @author julio.gabardo
  */
 public class Barco {
-    
+
     String cor;
     double tamanho;
     String nome;
     String tipo;
     int tripulacao;
-    
-    public String getNome(){
-        return nome;     
+
+    public String getNome() {
+        return nome;
     }
-    public void setNome(String nome){
-        this.nome= nome;
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
-    public double getTamanho(){
-        return tamanho;     
+
+    public double getTamanho() {
+        return tamanho;
     }
-    public void setTamanho(double tamanho){
-        this.tamanho= tamanho;
+
+    public void setTamanho(double tamanho) {
+        this.tamanho = tamanho;
     }
-    public String getCor(){
-        return cor;     
+
+    public String getCor() {
+        return cor;
     }
-    public void setCor(String cor){
-        this.cor= cor;
+
+    public void setCor(String cor) {
+        this.cor = cor;
     }
-    public String getTipo(){
-        return tipo;     
+
+    public String getTipo() {
+        return tipo;
     }
-    public void setTipo(String tipo){
-        this.tipo= tipo;
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
-    public int getTripulacao(){
-        return tripulacao;     
+
+    public int getTripulacao() {
+        return tripulacao;
     }
-    public void setTripulacao(int tripulacao){
-        this.tripulacao= tripulacao;
+
+    public void setTripulacao(int tripulacao) {
+        this.tripulacao = tripulacao;
     }
-    
+
 }

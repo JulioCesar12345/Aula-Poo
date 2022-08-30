@@ -44,7 +44,7 @@ public class Carro {
         return numPortas;
     }
 
-    public void setNumPortas() {
+    public void setNumPortas(int numPortas) {
         this.numPortas = numPortas;
     }
 
